@@ -205,4 +205,11 @@ p {
   margin: 0 -0.5rem !important;
 }
 
+footer.footer p {
+  font-size: 0.8rem;
+}
+footer.footer .copyright-notice {
+  font-size: 0.9rem;
+}
+
 /*# sourceMappingURL=main.css.map */
