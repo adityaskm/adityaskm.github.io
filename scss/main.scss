@@ -108,6 +108,11 @@ p {
 }
 
 .tools-i-use {
+  .row > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   img {
     width: calc(80% - 3rem);
     max-height: 300px;

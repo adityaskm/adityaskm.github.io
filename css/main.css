@@ -103,6 +103,11 @@ p {
   box-shadow: 0px 0px 4px 4px #dedede;
 }
 
+.tools-i-use .row > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .tools-i-use img {
   width: calc(80% - 3rem);
   max-height: 300px;
