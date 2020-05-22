@@ -104,7 +104,7 @@ p {
 }
 
 .tools-i-use img {
-  width: calc(100% - 3rem);
+  width: calc(80% - 3rem);
   max-height: 300px;
 }
 .tools-i-use .arrow {
@@ -139,6 +139,47 @@ p {
 }
 .company-list .company-list-item h3 {
   display: inline-block;
+}
+.company-list .company-list-item .company-list-column {
+  margin: 1rem 0;
+}
+.company-list .company-list-item .company-list-column.company-list-column--company-logo {
+  text-align: center;
+}
+@media screen and (max-width: 768px) {
+  .company-list .company-list-item .company-list-column .company-title {
+    text-align: center;
+    margin: 0 0 2rem 0;
+    display: block;
+  }
+  .company-list .company-list-item .company-list-column .skill-list {
+    margin: 0 0 2rem 0;
+    text-align: center;
+  }
+  .company-list .company-list-item .company-list-column .skill-list li {
+    margin: 0.5rem;
+  }
+  .company-list .company-list-item .company-list-column .duration {
+    text-align: center;
+  }
+}
+.company-list .company-list-item .description-product {
+  padding-left: 2rem;
+  margin: 0 0 0.5rem 0;
+}
+.company-list .company-list-item .description-product li {
+  text-transform: none;
+  font-size: 0.9rem;
+  color: #707070;
+  list-style-type: disc;
+}
+
+.company-separator-container {
+  text-align: center;
+}
+.company-separator-container .company-separator {
+  width: 300px;
+  margin: -40px 0 -25px 0;
 }
 
 .skill-list {

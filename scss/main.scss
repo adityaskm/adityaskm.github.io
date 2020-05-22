@@ -109,7 +109,7 @@ p {
 
 .tools-i-use {
   img {
-    width: calc(100% - 3rem);
+    width: calc(80% - 3rem);
     max-height: 300px;
   }
   .arrow {
@@ -146,6 +146,48 @@ p {
     h3 {
       display: inline-block;
     }
+    .company-list-column {
+      &.company-list-column--company-logo {
+        text-align: center;
+      }
+      @media screen and (max-width: 768px) {
+        .company-title {
+          text-align: center;
+          margin: 0 0 2rem 0;
+          display: block;
+        }
+        .skill-list {
+          margin: 0 0 2rem 0;
+          text-align: center;
+          li {
+            margin: 0.5rem;
+          }
+        }
+        .duration {
+          text-align: center;
+        }
+      }
+      margin: 1rem 0;
+    }
+
+    .description-product {
+      padding-left: 2rem;
+      li {
+        text-transform: none;
+        font-size: 0.9rem;
+        color: rgb(112, 112, 112);
+        list-style-type: disc;
+      }
+      margin: 0 0 0.5rem 0;
+    }
+  }
+}
+
+.company-separator-container {
+  text-align: center;
+  .company-separator {
+    width: 300px;
+    margin: -40px 0 -25px 0;
   }
 }
 
